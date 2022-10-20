@@ -1,0 +1,17 @@
+<head>
+  <title>{{ .Title }}</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <meta name="keywords" content="{{ .Site.Params.keywords }}">
+  <meta name="author" content="{{ .Site.Params.author }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {{- $files := readDir "themes/base/assets/css" -}}
+  {{- range $files -}}
+    {{- $cssname := printf "css/%s" .Name -}}
+    {{- $style := resources.Get $cssname | minify -}}
+    <link rel='stylesheet' href="{{ $style.RelPermalink }}" />
+  {{- end -}}
+
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+</head>

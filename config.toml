@@ -1,0 +1,10 @@
+baseURL = 'https://www.rpmfy.com/'
+languageCode = 'en-us'
+title = 'RPMFy'
+theme = 'base'
+
+[params]
+    author = 'Sarvika Technologies'
+
+[markup.goldmark.renderer]
+    unsafe = true

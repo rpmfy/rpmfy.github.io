@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+{{- partial "head.html" . -}}
+
+<body class="homepage">
+  {{- partial "header.html" -}}
+
+  <main class="main home__main">
+    <section class="home_banner py-5 py-md60 align-self-center">
+      <div class="container w-100">
+        <div class="row align-items-center">
+          {{- block "main" .}}{{- end }}
+        </div>
+      </div>
+    </section>
+  </main>
+
+  {{- partial "footer.html" . -}}
+  {{- partial "javascript.html" . -}}
+</body>
+
+</html>

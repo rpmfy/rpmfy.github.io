@@ -1,0 +1,6 @@
+{{- $files := readDir "themes/base/assets/js" -}}
+{{- range $files -}}
+    {{- $cssname := printf "js/%s" .Name -}}
+    {{- $js := resources.Get $cssname | minify -}}
+    <script src="{{ $js.RelPermalink }}" ></script>
+{{- end -}}

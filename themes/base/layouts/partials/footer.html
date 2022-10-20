@@ -1,0 +1,22 @@
+<footer>
+  <div class="footer pt-32">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <a href="javascript:;" class="d-inline-block">
+            <img src="/images/logo.svg" height="48" class="footer__logo" />
+          </a>
+          <p class="typo__caption">&copy; 2022 RPM App, Sarvika Technologies</p>
+        </div>
+        <div class="col-md-7 mt-4 mt-md-0">
+          {{ if gt (len .Pages) 0 }}
+            <ul class="footer-li footer-li-hr text-end">
+              {{ range .Pages }}
+                <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+              {{ end }}
+            </ul>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+</footer>
