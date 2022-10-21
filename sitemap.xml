@@ -4,6 +4,8 @@
   <url>
     <loc>https://www.rpmfy.com/categories/</loc>
   </url><url>
+    <loc>https://www.rpmfy.com/contact-us/</loc>
+  </url><url>
     <loc>https://www.rpmfy.com/privacy-policy/</loc>
   </url><url>
     <loc>https://www.rpmfy.com/</loc>
@@ -11,5 +13,7 @@
     <loc>https://www.rpmfy.com/tags/</loc>
   </url><url>
     <loc>https://www.rpmfy.com/terms-and-conditions/</loc>
+  </url><url>
+    <loc>https://www.rpmfy.com/user-manual/</loc>
   </url>
 </urlset>
