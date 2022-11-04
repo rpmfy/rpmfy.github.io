@@ -1058,7 +1058,7 @@ a.store_btn--outline.disabled:focus {
 }
 
 .store__header nav ul li img {
-  max-height: 55px;
+  max-height: 64px;
 }
 
 .store__header nav ul li a {
@@ -1154,7 +1154,7 @@ a.store_btn--outline.disabled:focus {
 
 @media (max-width: 1024px) {
   .store__header {
-    height: 50px;
+    height: 64px;
   }
 
   .store__header .container {
@@ -1170,7 +1170,7 @@ a.store_btn--outline.disabled:focus {
   }
 
   .store__header nav ul li img {
-    max-height: 42px;
+    max-height: 64px;
   }
 
   .store__header nav ul.right-menu li:last-child a {
@@ -1182,9 +1182,9 @@ a.store_btn--outline.disabled:focus {
     width: 100%;
   }
 
-  .store__header nav ul li {
+  /* .store__header nav ul li {
     height: 50px;
-  }
+  } */
 
   .store__header nav ul.xsnav li {
     height: auto;
