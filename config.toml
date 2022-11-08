@@ -1,6 +1,6 @@
-baseURL = 'https://www.rpmfy.com/'
+baseURL = 'https://www.yrpal.com/'
 languageCode = 'en-us'
-title = 'RPMFy'
+title = 'YourPal'
 theme = 'base'
 
 [params]
