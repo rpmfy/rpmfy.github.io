@@ -1378,7 +1378,7 @@ footer .post-footer .legallinks li a {
 }
 
 .app-btn {
-  padding: 14px 28px;
+  padding: 14px 16px;
   color: #fff;
   border-radius: 5px;
   text-decoration: none;
@@ -1396,14 +1396,26 @@ footer .post-footer .legallinks li a {
   color: #ffffff;
 }
 
-.app-btn i {
+.app-btn i.fa {
   font-size: 30px;
+}
+.app-btn i {
   margin-right: 14px;
 }
 
 .app-btn .big-txt {
   font-size: 18px;
   text-transform: capitalize;
+}
+
+@media screen and (max-width: 575px) {
+  .app-btn {
+    padding: 12px;
+    font-size: 10px;
+  }
+  .app-btn .big-txt {
+    font-size: 16px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
