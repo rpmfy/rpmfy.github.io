@@ -5,7 +5,7 @@
     /* .screen {
         height: 80vh;
     } */
-}
+}   
 
 @media only screen and (min-width: 1199px) and (max-width: 1399px) {
     .bottom_header-title {
@@ -103,8 +103,15 @@
     }
 
 }
-
+@media only screen and (max-width: 1024px) {
+    .hide h4 {
+        padding-top: 8rem;
+    }
+}
 @media only screen and (min-width: 1024px) {
+    .hide h4 {
+        padding-top: 8rem;
+    }
 
     .new_left_glary>h3 {
         font-size: 26px;
@@ -279,6 +286,9 @@ display: none;
 }
 
 @media only screen and (max-width: 768px) {
+    .hide h4 {
+        padding-top: 8rem;
+    }
     p {
         font-size: 16px;
     }
@@ -484,6 +494,9 @@ display: none;
 }
 
 @media only screen and (max-width: 575px) {
+    .hide h4 {
+        padding-top: 4rem;
+    }
  
     img.img-fluid.bottom_header_image {
         height: 100px;

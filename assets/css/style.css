@@ -24,6 +24,25 @@ h5,
 h6 {
     line-height: 1.4;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #cdd3ff; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #26283a; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #26283a; 
+  }
 
 p {
     font-size: 16px;
@@ -1032,14 +1051,17 @@ display: block;
     color: #fff;
     visibility: hidden;
     padding: 16px;
+    overflow: hidden;
+    overflow-y: scroll;
     
     
 }
-.hide h3{
-font-size: 32px;
+.hide h4{
+font-size: 24px;
 line-height: 44px;
 text-align: center;
 color: #fff;
+padding-top: 2rem;
 }
 .hide p{
     font-size: 16px;
