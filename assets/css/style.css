@@ -15,11 +15,7 @@ body {
     font-family: var(--primary-font);
     overflow-x: hidden;
 }
-.wrapper{
-    overflow: hidden !important;
-    width: 100%;
-    max-width: 100%;
-}
+
 h1,
 h2,
 h3,
@@ -30,13 +26,17 @@ h6 {
 }
 /* width */
 ::-webkit-scrollbar {
-    width: 6px;
+    height: 3px;
+  }
+  ::-webkit-scrollbar {
+    width: 3px;
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
     background: #cdd3ff; 
   }
+  
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
@@ -481,9 +481,9 @@ ul.footer-links>li>a {
     color: #ffffff;
 }
 
-/* .social-links img {
+.social-links img {
     padding: 0px 20px;
-} */
+}
 
 .social-links {
     justify-content: end;
@@ -836,12 +836,8 @@ ul.footer-links>li>a {
     color: #ffffff;
 }
 
-.social-links a {
-    padding: 0px 10px;
-}
-.social-links a:last-child {
-    padding: 0px 10px;
-    padding-right: 0px;
+.social-links img {
+    padding: 0px 20px;
 }
 
 .social-links {
