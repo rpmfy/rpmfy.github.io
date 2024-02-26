@@ -787,11 +787,16 @@ button.send-message-btn {
     border-bottom: 1px solid #eeeeee;
     padding-bottom: 1rem;
 }
-
+.m_web .title-2 p {
+    border-bottom:none;
+}
 .privacy-content h4,
 .title h3 {
     color: #384156;
     font-weight: 600;
+}
+.title-3 h4{
+    font-size: 18px;
 }
 
 /* ======= Footer ============ */
