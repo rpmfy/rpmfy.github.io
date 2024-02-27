@@ -190,7 +190,8 @@ display: none;
         flex-direction: row;
         flex-wrap: nowrap;
         white-space: nowrap;
-        overflow: scroll;
+        overflow: hidden;
+        overflow-x: scroll;
     }
 
     .screen,
@@ -282,12 +283,6 @@ display: none;
     }
     .heading {
         font-size: 38px;
-    }
-    ul.footer-links {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0;
     }
 }
 
@@ -401,7 +396,12 @@ display: none;
         align-items: self-start;
     }
 
-
+    ul.footer-links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+    }
 
     ul.footer-links>li>a {
         padding: 0;
