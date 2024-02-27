@@ -787,11 +787,16 @@ button.send-message-btn {
     border-bottom: 1px solid #eeeeee;
     padding-bottom: 1rem;
 }
-
+.m_web .title-2 p {
+    border-bottom:none;
+}
 .privacy-content h4,
 .title h3 {
     color: #384156;
     font-weight: 600;
+}
+.title-3 h4{
+    font-size: 18px;
 }
 
 /* ======= Footer ============ */
@@ -1178,4 +1183,22 @@ flex-grow: 0;
     font-style: italic;
     font-weight: 700;
     font-size: 20px;
+}
+.top_header{
+   background-color: #2d3e89; 
+}
+ul.top_menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 0px;
+}
+ul.top_menu li{
+    color: #fff;
+}
+ul.top_menu li.nav-item>a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
 }
