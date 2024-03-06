@@ -635,7 +635,8 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="send-message" data-aos-duration="1000" data-aos="fade-left">
+						<div class="formSectionHome"></div>
+						<!-- <div class="send-message" data-aos-duration="1000" data-aos="fade-left">
 							<form>
 								<h4>Book A
 									<strong>Meeting</strong></h4>
@@ -674,7 +675,7 @@
 
 								<button type="submit" class="send-message-btn">Send Message</button>
 							</form>
-						</div>
+						</div> -->
 					</div>
 				</div>
 
@@ -738,6 +739,17 @@
 		AOS.init();
 	  </script>
 	<!-- KeyFeatures Section End -->
+	<script type="text/javascript">
+		Formio.setProjectUrl(
+		  'https://api.ecommfy.com/forms/api/recaptcha/65defb0c70f572001e6131b6'
+		);
+		window.onload = function () {
+		  Formio.createForm(
+			document.getElementById('formSectionHome'),
+			'https://api.ecommfy.com/forms/api/formio/65defb0c70f572001e6131b6'
+		  );
+		};
+	  </script>
 	<script>
 		$(document).ready(function () {
 

@@ -162,7 +162,7 @@
 									</div>
 				
 									<div class="col-12 col-lg-6" data-aos-duration="1000" data-aos="fade-left">
-										<div class="send-message">
+										<!-- <div class="send-message">
 											<form>
 												<h4>Send Us A <strong>Message</strong></h4>
 												<div class="row form-contact">
@@ -200,7 +200,8 @@
 				
 												<button type="submit" class="send-message-btn">Send Message</button>
 											</form>
-										</div>
+										</div> -->
+										<div id="formSection"></div>
 									</div>
 				
 								</div>
@@ -268,6 +269,17 @@
 		<!-- animation -->
 		<script>
 			AOS.init();
+		  </script>
+		  <script type="text/javascript">
+			Formio.setProjectUrl(
+			  'https://api.ecommfy.com/forms/api/recaptcha/65defb0c70f572001e6131b6'
+			);
+			window.onload = function () {
+			  Formio.createForm(
+				document.getElementById('formSection'),
+				'https://api.ecommfy.com/forms/api/formio/65defb0c70f572001e6131b6'
+			  );
+			};
 		  </script>
 </body>
 
