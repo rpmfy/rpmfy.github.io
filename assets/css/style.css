@@ -834,7 +834,7 @@ ul.footer-links {
 
 ul.footer-links>li {
     list-style: none;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 ul.footer-links>li>a {
@@ -1211,4 +1211,17 @@ ul.top_menu li.nav-item>a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+}
+#formSection .has-feedback,
+#formSectionHome .has-feedback{
+    background: transparent;
+    border: none;
+    padding: 1rem 0rem;
+}
+#formSection .has-feedback .btn-default,
+#formSectionHome .has-feedback .btn-default
+{
+    background-color: #2D3E89 !important;
+    border: 1px solid #2D3E89 !important;
+    opacity: 100%;
 }
