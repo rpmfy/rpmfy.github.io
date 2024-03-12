@@ -635,7 +635,7 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="formSectionHome"></div>
+						<div id="formSection"></div>
 						<!-- <div class="send-message" data-aos-duration="1000" data-aos="fade-left">
 							<form>
 								<h4>Book A
@@ -738,19 +738,19 @@
 	<script>
 		AOS.init();
 	  </script>
-	  <script src="https://api.ecommfy.com/forms/api/static/assets/js/formio.full.min.js"></script>
-	<!-- KeyFeatures Section End -->
-	<script type="text/javascript">
-		Formio.setProjectUrl(
-		  'https://api.ecommfy.com/forms/api/recaptcha/65defb0c70f572001e6131b6'
-		);
-		window.onload = function () {
-		  Formio.createForm(
-			document.getElementById('formSectionHome'),
-			'https://api.ecommfy.com/forms/api/formio/65defb0c70f572001e6131b6'
-		  );
-		};
-	  </script>
+<script src="https://api.ecommfy.com/forms/api/static/assets/js/formio.full.min.js"></script>
+
+  <script type="text/javascript">
+	Formio.setProjectUrl(
+	  'https://api.ecommfy.com/forms/api/recaptcha/65defb0c70f572001e6131b6'
+	);
+	window.onload = function () {
+	  Formio.createForm(
+		document.getElementById('formSection'),
+		'https://api.ecommfy.com/forms/api/formio/65defb0c70f572001e6131b6'
+	  );
+	};
+  </script>
 	<script>
 		$(document).ready(function () {
 
