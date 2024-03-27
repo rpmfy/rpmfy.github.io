@@ -1217,7 +1217,7 @@ ul.top_menu li.nav-item>a {
 #formSectionHome .has-feedback{
     background: transparent;
     border: none;
-    padding: 1rem 0rem;
+    padding: 0.7rem 0rem;
 }
 #formSection .has-feedback .btn-default,
 #formSectionHome .has-feedback .btn-default
@@ -1225,4 +1225,9 @@ ul.top_menu li.nav-item>a {
     background-color: #2D3E89 !important;
     border: 1px solid #2D3E89 !important;
     opacity: 100%;
+}
+#formSection .has-feedback .btn-default label,
+#formSectionHome .has-feedback .btn-default label
+{
+display: none;
 }
