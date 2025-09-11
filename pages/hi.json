@@ -1,22 +1,32 @@
 [
   {
     "name": "गोपनीयता पालिसी",
-    "link": "https://www.yrpal.com/web-privacy-english.html"
+    "link": "https://www.yrpal.com/web-privacy-english.html",
+    "app_view": 1,
+    "is_live": 1
   },
   {
     "name": "नियम एवं शर्तें",
-    "link": "https://www.yrpal.com/web-terms-english.html"
+    "link": "https://www.yrpal.com/web-terms-english.html",
+    "app_view": 1,
+    "is_live": 1
   },
   {
     "name": "उपयोगकर्ता पुस्तिका",
-    "link": "https://www.yrpal.com/assets/pdf/Mobile-App-Manual.pdf"
+    "link": "https://www.yrpal.com/assets/pdf/Mobile-App-Manual.pdf",
+    "app_view": 1,
+    "is_live": 1
   },
   {
     "name": "संपर्क करें",
-    "link": "https://www.yrpal.com/web-contact-english.html"
+    "link": "https://www.yrpal.com/web-contact-english.html",
+    "app_view": 1,
+    "is_live": 1
   },
   {
     "name": "डिवाइस प्राप्त करें",
-    "link": "https://shop.yrpal.com/"
+    "link": "https://shop.yrpal.com/",
+    "app_view": 0,
+    "is_live": 0
   }
 ]
