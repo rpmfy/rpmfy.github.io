@@ -25,8 +25,8 @@
     },
     {
         "name": "Get a Device",
-        "link": "https://shop.yrpal.com/",
-        "app_view": 0,
+        "link": "https://shop.yrpal.com/products",
+        "app_view": 1,
         "is_live": 1
     }
 ]
